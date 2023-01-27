@@ -1,6 +1,5 @@
-
 const Ingredient = (props) => {
-	console.log(props.Ingredient)
+	// console.log(props.Ingredient)
 	return (
 		<li style={{background: props.ingredient.color}}>
 			{props.ingredient.name}
