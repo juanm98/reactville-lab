@@ -9,13 +9,15 @@ import Landing from './Components/Landing/Landing'
 
 const App = () => {
   return (
+    <div>
+    <Nav />
     <main>
       <Routes>
         <Route path='/' element={<Landing />}/>
         <Route path='/burgers' element={<BurgerShop/>} />
       </Routes>
-
     </main>
+    </div>
   )
 }
 
